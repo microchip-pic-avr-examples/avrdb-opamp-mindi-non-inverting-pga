@@ -1,14 +1,14 @@
 # Getting started with Mindi® simulation and AVR®DB microcontrollers
 This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool.
 ## Configuration: Non-Inverting PGA
-The Non-Inverting Pgrogrammable Gain Amplifier is a configuration whith run-time selectable positive gain.
+The Non-Inverting Programmable Gain Amplifier is a configuration whith run-time selectable positive gain.
 
 ![Non-Inverting PGA](images/configuration.png)
 
 ### Mindi Simulation
 <img src="images/mplab-mindi-analog-simulator.png" width="100"/>
 
-Download and open the follower **Mindi schematic [here](schematics/Non_inverting.wxsch)**
+Download and open the follower **Mindi schematic [here](schematics/Non_inverting_PGA.wxsch)**
 
 Press the _play_ button to simulate with an example stimulus source.
 
