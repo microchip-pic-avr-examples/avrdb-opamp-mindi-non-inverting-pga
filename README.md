@@ -20,4 +20,3 @@ Once the desired result has been verified with Mindi simulation, the corrected v
 
 ### Don't have Mindi?
 Download and install [Mindi simulation tool](https://www.microchip.com/mplab/mplab-mindi)
-Download and install Mindi model for AVR DB device
