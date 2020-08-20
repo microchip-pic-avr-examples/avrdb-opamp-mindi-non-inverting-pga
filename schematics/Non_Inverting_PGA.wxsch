@@ -146,6 +146,7 @@ Property name="REF" value="V?" autopos=1 normal=Right rotated=Bottom font=Defaul
 .EndSymbol
 .EndSymbolLibrary
 .StyleLibrary
+Style name="DefaultAnnotation" lineColour="10027161" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=1
 Style name="DefaultBackground" lineColour="16777215" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
 Style name="DefaultGrid" lineColour="0" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
 Style name="DefaultInstance" lineColour="255" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="7" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=1
@@ -489,8 +490,22 @@ Property name="TextAlignment" value="AlignLeft" autopos=1 normal=Left rotated=Le
 .EndTextAnnotation
 --SXVERSION1.5
 .Instance
-Attributes type=symbol name="Free_text" selected=1 protected=0 x=-480 y=7200 orient=N0
+Attributes type=symbol name="Free_text" selected=0 protected=0 x=-480 y=7200 orient=N0
 Property name="value" value="Non-Inverting PGA gain settings:\n\n                                  | OP0 Wiper   |\n| Gain  |    MUXWIP   |  Res Values  |\n|           | Value| Name|     R1 |     R2 |\n|1.06    |    0x0|  WIP0|     60k|      4k|\n|1.14    |    0x1|  WIP1|     56k|      8k|\n|1.33    |    0x2|  WIP2|     48k|    16k|\n|1.75    |    0x3|  WIP3|     32k|    32k|\n|2.33    |    0x4|  WIP4|     24k|    40k|\n|4         |    0x5|  WIP5|     16k|    48k|\n|8         |    0x6|  WIP6|       8k|    56k|\n|16       |    0x7|  WIP7|       4k|    60k|" autopos=0 x=0 y=156 align=LeftBase linear=1 selectable=1 font=FreeText
+Netnames
+.EndInstance
+--EndSXVERSION1.5
+.TextAnnotation
+Attributes orient=N0 x=2880 y=7920  
+TextInfo text="Vout =  Vin * gain" font="arial" size="9" italics="false" bold="false" 
+Property name="StyleNormal" value="DefaultAnnotation" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="TextAlignment" value="AlignLeft" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndTextAnnotation
+--SXVERSION1.5
+.Instance
+Attributes type=symbol name="Free_text" selected=0 protected=0 x=2880 y=7920 orient=N0
+Property name="value" value="Vout =  Vin * gain" autopos=0 x=0 y=156 align=LeftBase linear=1 selectable=1 font=FreeText
 Netnames
 .EndInstance
 --EndSXVERSION1.5
@@ -506,7 +521,7 @@ SimulatorMode value="SIMetrix"
 View x=-1105 y=3563 zoomlevel=32 zoom=9 snapgrid=120 offsetX=1105 offsetY=-3563
 Property name="CreateProduct" value="MPLAB Mindi" type=value
 Property name="GUID" value="{61e93c0f-8189-43fe-8b00-b06e0b9827ec}" type=value
-Property name="UserVersion" value="62" type=value
-Property name="WriteLog" value="62/62/42734/42734" type=value
+Property name="UserVersion" value="63" type=value
+Property name="WriteLog" value="63/63/42942/42942" type=value
 .EndSchematic
 .EndComponent
