@@ -9,7 +9,7 @@ The Non-Inverting Programmable Gain Amplifier is a configuration whith run-time 
 ### Mindi Simulation
 ![Mindi](images/mplab-mindi-analog-simulator.png)
 
-Download and open the **Mindi schematic [here](schematics/Non_inverting_PGA.wxsch)**
+Download and open the **Mindi schematic [here](https://github.com/microchip-pic-avr-examples/avrdb-opamp-mindi-non-inverting-pga/releases/latest)**
 
 Press the _play_ button to simulate with an example stimulus source.
 
