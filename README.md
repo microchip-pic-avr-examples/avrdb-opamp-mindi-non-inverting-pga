@@ -1,6 +1,6 @@
 ![Microchip logo](images/microchip.png)
 # Getting started with Mindi™ simulation and AVR®DB microcontrollers
-This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool.
+This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool. For a larger overview, see ["Getting Started with Analog Signal Conditioning (OPAMP)"](https://github.com/search?q=topic%3Aavr-db+topic%3Agetting-started-with-opamp+org%3Amicrochip-pic-avr-examples).
 ## Configuration: Non-Inverting PGA
 The Non-Inverting Programmable Gain Amplifier is a configuration whith run-time selectable positive gain.
 
@@ -20,4 +20,4 @@ The amplification of the Non-Inverting PGA can be adjusted to any of 8 levels fr
 Once the desired result has been verified with Mindi simulation, the corrected values should be moved back into MCC/Start by copying resistor values across to the composer of your preference.
 
 ### Don't have Mindi?
-Download and install [Mindi simulation tool](https://www.microchip.com/mplab/mplab-mindi)
+You can download and install the [Mindi simulation tool](https://www.microchip.com/mplab/mplab-mindi), or use another SPICE simulator of your own preference. For use with different simulators, a plain spice model can be found in "Opamp_AVR_DB.txt" to replace the mindi-optimized ".lb" 
